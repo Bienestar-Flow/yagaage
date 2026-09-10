@@ -607,14 +607,15 @@ h2::after {
     width: 100%;
 }
 
-.map-placeholder__card {
-    padding: 22px 26px;
-    border: 2px dashed var(--gold-deep);
+.map-placeholder__image {
+    width: 100%;
+    height: auto;
     border-radius: var(--radius-md);
-    background: var(--cream);
+    border: 2px solid var(--gold-deep);
 }
 
-.map-placeholder__card p {
+.map-placeholder__caption {
+    margin-top: 14px;
     color: var(--ink-soft);
     font-weight: 700;
     font-size: 0.98rem;
